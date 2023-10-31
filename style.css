@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.nav-link{
+    font-size: 15px;
+    margin-right: 20px;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid white;
+}
+
+.nav-h2{
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.step2{
+    height: 350px;
+    width: 100%;
+    border: 2px solid white;
+    margin-top: 50px;
+    padding: 100px;
+    margin-bottom: 400px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.step2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.step2 .text{
+    width: 600px;
+    height: 300px;
+    border: 2px solid white;
+    margin-top: 80px;
+    text-align: justify;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.text p:first-child{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.text p:nth-child(2){
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text p:nth-child(3){
+    border-bottom: 1.5px solid black;
+    width: 73%;
+    text-align: justify;
+
+}
+
+.text p:last-child{
+    border: 1px solid white;
+    margin-top: 8px;
+    padding: 5px;
+}
+.text a:hover{
+    background-color:white;
+    color: black;
+}
+
+.card{
+    background-color: blue;
+}
+
+.card-body{
+    margin: 2.5%;
+    color: white;
+}
+
+.card-title{
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+.card-text{
+    word-spacing: 4px;
+    letter-spacing: 1.5px;
+    padding-left: 5%;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.edu-text{
+    border: 1px solid transparent;
+    padding: 2%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 0.5%;
+    font-size: 23px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 2px rgb(209, 203, 203);
+}
+
+.scroll-abt{
+    padding: 11% 2% ;
+    margin-bottom: 5%;
+}
+
+.education{
+    border: 1px solid white;
+    padding: 8%;
+}
+.table{
+    height: 200px;
+    text-align: center;
+}
+
+thead{
+    background-color: blue;
+    color: white;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+.table th,tr{
+    padding: 20px;
+}
+
+.tech-skills{
+    border: 1px solid white;
+    padding: 10%;
+}
+
+.skill{
+    margin: 5%;
+    margin-top: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.card-title1{
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-bottom: 15px;
+}
+
+.card-text1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.skill img{
+    border: 30px solid blue;
+    border-radius: 50px;
+} 
+
+.card-body1{
+    border: 1px solid transparent;
+    padding: 10%;
+}
+
+#certificate{
+    margin: 5%;
+    padding: 5%;
+}
+.certi{
+    border: 2px solid white;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.border-1{
+    width: 100%;
+}
+
+.table-content p{
+    text-align: center;
+    padding: 10px;
+}
+
+.table-content a:hover{
+    color: black;
+    background-color: white;
+}
+
+.certi-text{
+    margin: 10px 30px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    font-weight: 800;
+    border-bottom: 2px solid white;
+
+}
+
+.tab{
+    border: 1px solid blue;
+    padding: 5%;
+}
+
+.form{
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+form h3{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input,form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+}
+
+form button{
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+.form button:hover{
+    background: linear-gradient(30deg,green,white,orange);
+    
+}
+
+#hire{
+    padding: 0 20%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer{
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    padding-top: 150px;
+    margin-top: -150px;
+    z-index: -1;
+    position: static;
+    margin-bottom: -15px;
+    bottom: 0;
+}
+
+
+.media{
+    margin-top: -120px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    bottom: 8%;
+    z-index: 2;
+    margin-left: -20px;
+}
+
+
+.linkedin{
+    background-color: #0082ca;
+}
+
+.github{
+    background-color: #333333;
+}
+
+.copyright{
+    color: white;
+    margin-top: -20px;
+}
+
+/* media query */
+
+
+/* media query */
+
+@media (max-width:768px) {
+    .step2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+
+    .step2 img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-left: 5%;
+    }
+
+    .step2 .text{
+        width: 400px;
+        height: 150px;
+        border: 2px solid white;
+        margin-top: 25px;
+        text-align: justify;
+        font-size: 13px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+    .step2 p:nth-child(3){
+        border-bottom: none;
+        padding-bottom: 25px;
+        text-align: justify;
+        margin-bottom: 10px;
+        margin: 0;
+    }
+
+}
+
+/* media query */
+
+@media (max-width:650px) {
+    .step2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .step2 img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    .step2 .text{
+        width: 350px;
+        height: 150px;
+        border: 2px solid white;
+        text-align: center;
+        justify-content: center;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+    }
+
+    .step2 p:nth-child(3){
+        border-bottom: none;
+        padding-bottom: 20px;
+        margin: 0;
+        margin-left: 50px;
+    }
+
+    .card{
+        margin-top: 35%;
+    }
+    
+    .table thead{
+        display: none;
+    }
+
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+        border: none;
+    }
+
+    .table tr{
+        margin-bottom: 15px;
+    }
+
+   .table tbody tr td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    .table td:before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        box-sizing: border-box;
+        width: 50%;
+        height: 100%;
+        padding-left: 15px;
+        text-align: left;
+    } 
+
+    .tech-skills{
+        margin-top: 150%;
+    }
+
+    .skills img{
+        border: 50px solid blue;
+        border-radius: 100px;
+    }
+
+    .col{
+        margin-top: -100px;
+        padding-top: 0;
+    }
+
+    .certi{
+        margin-top: 20%;
+    }
+
+    .media{
+        display: flex;
+        flex-direction: column;
+        width: 60px;
+    }
+}
+
+@media (max-width:470px){
+
+    *{
+        width: 80%;
+    }
+
+    .step2{
+        margin-top: 10%;
+    }
+    .card{
+        margin-top: 45%;
+    }
+
+    #skill-text{
+        margin-top: 150%;
+    }
+
+}
